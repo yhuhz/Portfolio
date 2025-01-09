@@ -1,6 +1,6 @@
 # Important Note from video creator
 
-❗ Note: If you use Mongoose version 7 or higher, the mongoose-sequence package I introduce in Chapter 3 will not work. Solutions: 1) Use this updated mongoose sequence package: https://www.npmjs.com/package/mongoos... ..or 2) Use the dependency versions I list in my package.json file for this project.
+❗ Note: If you use Mongoose version 7 or higher, the mongoose-sequence package I introduce in Chapter 3 will not work. Solutions: 1) Use this updated mongoose sequence package: [mongoose-sequence-generator](https://www.npmjs.com/package/mongoose-sequence-generator) ..or 2) Use the dependency versions I list in my package.json file for this project.
 
 # Starting a Project Instructions
 
@@ -27,3 +27,4 @@ Just run command 'npm install' and it will install all dependencies on the packa
 2. npm i cookie-parser
 3. npm i cors
 4. npm i dotenv
+5. (Optional for a sequential number) 'npm install --save mongoose-sequence' and 'npm i mongoose-sequence-generator'. Check note above for more info.
