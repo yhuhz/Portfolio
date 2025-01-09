@@ -1,6 +1,6 @@
-Starting a Project Instructions
+# Starting a Project Instructions
 
-Backend:
+### Backend:
 
 1. Install node.js - check with command 'node -v' and 'npm-v'
 2. (Optional) Install git bash
@@ -13,9 +13,10 @@ Backend:
 6. Just copy the rest of the files
 7. Run using 'npm run dev'
 
---
-Dependencies needed not included in the repo
+## Dependencies needed not included in the repo
 
-Backend:
+### Backend:
 
 1. npm i date-fns uuid
+2. npm i cookie-parser
+3. npm i cors
