@@ -3,7 +3,9 @@ const app = express(); // Create an express app
 const path = require("path"); // Import path
 const PORT = process.env.PORT || 3500; // Set the port
 
-app.use("/", express.static(path.join(__dirname, "/public"))); // Serve the static files
+app.use(express.json()); // Parse JSON bodies
+
+app.use("/", express.static(path.join(__dirname, "public"))); // Serve the static files
 
 app.use("/", require("./routes/root")); // Use the root router
 
