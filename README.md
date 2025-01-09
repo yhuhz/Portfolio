@@ -19,6 +19,8 @@
 
 ## Dependencies needed not included in the repo
 
+Just run command 'npm install' and it will install all dependencies on the package.json file
+
 ### Backend:
 
 1. npm i date-fns uuid
