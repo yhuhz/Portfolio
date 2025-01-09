@@ -1,3 +1,7 @@
+# Important Note from video creator
+
+❗ Note: If you use Mongoose version 7 or higher, the mongoose-sequence package I introduce in Chapter 3 will not work. Solutions: 1) Use this updated mongoose sequence package: https://www.npmjs.com/package/mongoos... ..or 2) Use the dependency versions I list in my package.json file for this project.
+
 # Starting a Project Instructions
 
 ### Backend:
