@@ -26,3 +26,4 @@ Just run command 'npm install' and it will install all dependencies on the packa
 1. npm i date-fns uuid
 2. npm i cookie-parser
 3. npm i cors
+4. npm i dotenv

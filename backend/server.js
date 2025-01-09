@@ -1,3 +1,4 @@
+require("dotenv").config(); // Import the dotenv module and configure it
 const express = require("express"); // Import express
 const app = express(); // Create an express app
 const path = require("path"); // Import path
@@ -7,6 +8,8 @@ const cookieParser = require("cookie-parser"); // Import the cookie-parser modul
 const cors = require("cors"); // Import the cors module
 const corsOptions = require("./config/corsOptions"); // Import the corsOptions module
 const PORT = process.env.PORT || 3500; // Set the port
+
+console.log(process.env.NODE_ENV); // Log the current environment
 
 app.use(logger); // Use the logger middleware
 
