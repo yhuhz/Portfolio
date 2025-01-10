@@ -29,6 +29,8 @@ app.use("/", express.static(path.join(__dirname, "public"))); // Serve the stati
 
 app.use("/", require("./routes/root")); // Use the root router
 
+app.use("/users", require("./routes/userRoutes")); // Use the users router
+
 app.all("*", (req, res) => {
   res.status(404);
   if (req.accepts("html")) {
@@ -41,6 +43,10 @@ app.all("*", (req, res) => {
 }); // Handle all other routes. PUT THIS LAST
 
 app.use(errorHandler); // Use the errorHandler middleware
+
+/**
+ * DB Connections
+ */
 
 mongoose.connection.once("open", () => {
   console.log("Connected to the MongoDB"); // Log when connected to the database

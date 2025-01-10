@@ -28,3 +28,9 @@ Just run command 'npm install' and it will install all dependencies on the packa
 3. npm i cors
 4. npm i dotenv
 5. (Optional for a sequential number) 'npm install --save mongoose-sequence' and 'npm i mongoose-sequence-generator'. Check note above for more info.
+6. npm i express-async-handler bcrypt
+
+## TO CHANGE FROM TUTORIAL
+
+1. It is optional to use **mongoose sequence dependencies** since we may not be yung an incremental for schemas.
+2. Change the **models, controllers, and routes** to better suit your projects. Example, use a message schema for the portfolio since viewers of the portfolio don't need to register in order to leave a message.
