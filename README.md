@@ -17,6 +17,19 @@
 6. Just copy the rest of the files
 7. Run using 'npm run dev'
 
+### Frontend:
+
+1. Install react using Vite. Use command **npm create vite@latest**
+2. Create project name, preferably "**frontend**" to separate the folder from the backend folder.
+3. Select typescript.
+4. cd to the frontend folder. Run command **npm install** to install dependencies.
+   ❗ Note: Dependencies are automatically ignored by Git as per Vite. You have to run the command **npm install** everytime you clone a repository. Also, make it a habit to run **npm outdated** to check for outdated dependencies. Lastly, run command **npm update** if you want to update all dependencies or **npm update <package-name>** if you want to update only selected dependencies.
+5. Run command **npm run dev**
+6. You can see from the **index.html** that the main file is the **main.tsx** which draws the code from the **App.tsx**, you can create a subfolder inside the **src** folder and name it **pages** so you could place all the possible pages of your project there. You can now move the **main.tsx** and **App.tsx** files there or create new files with their css. Make sure to change the directory in the **index.html** file so it could find the main file for your project.
+7. Since typescript has been selected for installations, **.js** files should be **.tsx**.
+8. Continue with the video tutorial.
+9. Never forget to use the **rafce** shortcut when creating new files.
+
 ## Dependencies needed not included in the repo
 
 Just run command 'npm install' and it will install all dependencies on the package.json file
@@ -29,6 +42,11 @@ Just run command 'npm install' and it will install all dependencies on the packa
 4. npm i dotenv
 5. (Optional for a sequential number) 'npm install --save mongoose-sequence' and 'npm i mongoose-sequence-generator'. Check note above for more info.
 6. npm i express-async-handler bcrypt
+
+### Frontend:
+
+1. npm i react-router-dom
+2. npm i @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
 
 ## TO CHANGE FROM TUTORIAL
 
